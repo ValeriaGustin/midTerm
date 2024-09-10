@@ -18,7 +18,7 @@ int Proceso::getTurnAroundTime() const { return turnAroundTime; }
 
 void Proceso::setBurstTime(int newBurstTime) { burstTime = newBurstTime; }
 void Proceso::setWaitingTime(int newWaitingTime) { waitingTime = newWaitingTime; }
-void Proceso::setBurstTimeC(int newBurstTimeC) {burstTimeTimeC = newBurstTimeC; }
+void Proceso::setBurstTimeC(int newBurstTimeC) {burstTimeC = newBurstTimeC; }
 void Proceso::setTurnAroundTime(int newTurnAroundTime) { turnAroundTime = newTurnAroundTime; }
 
 
